@@ -1,0 +1,6 @@
+include:
+  - html/_images
+  - html/_sources
+  - html/_static
+  - html/_modules
+  - html/_templates
