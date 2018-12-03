@@ -181,8 +181,11 @@ include:
   - html/_templates
 ```
 
-启用 GIT
+初次建立以后将 docs\\html\\.nojekyll 复制到 docs 目录
 
 ```powershell
-git init
+make.bat html
+copy docs\html\.nojekyll docs
 ```
+
+至此初始化完成
